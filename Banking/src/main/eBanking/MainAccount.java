@@ -1,3 +1,5 @@
+package main.eBanking;
+
 import javax.print.MultiDocPrintService;
 import javax.sound.midi.*;
 import javax.swing.plaf.basic.BasicInternalFrameTitlePane.RestoreAction;
@@ -13,6 +15,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.awt.*;
 
+// TODO: extends JFrame
 public class MainAccount extends JDialog {
 	private long Balance;
 	private String UserOf;
@@ -23,7 +26,7 @@ public class MainAccount extends JDialog {
 
 	public MainAccount(JFrame frame) {
 
-		super(frame, "Main Account", true);
+		super(frame, "main.Main Account", true);
 		setLayout(new FlowLayout());
 
 		ArrayList<String> Histo = new ArrayList<>();
